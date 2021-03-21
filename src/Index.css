@@ -1,0 +1,98 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #dde8fc;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  /* border: 1px solid red; */
+}
+
+form {
+  margin: 3rem 3rem;
+  padding: 10px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input {
+  outline: none;
+  display: block;
+  padding: 10px;
+  width: 100%;
+  font-family: cursive;
+  /* font-weight: 700; */
+  font-size: 1em;
+}
+
+.btn {
+  text-decoration: none;
+  margin-top: 10px;
+  margin-right: 5px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  background-color: blue;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.danger {
+  background-color: red;
+}
+
+.danger:hover {
+  color: blue;
+  background-color: black;
+}
+
+.primary:hover {
+  color: red;
+  background-color: magenta;
+}
+
+nav {
+  margin: 3rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+}
+
+.list {
+  margin: 3rem 3rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.list li {
+  margin-bottom: 10px;
+  border: 1px solid red;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gold {
+  color: #000;
+  background-color: gold;
+  font-weight: 700;
+}
